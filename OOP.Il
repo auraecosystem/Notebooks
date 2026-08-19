@@ -1,6 +1,6 @@
 ;; Define a GraphNode class using your macro
 (define-class (GraphNode id label)
-  ((get-id) id) 
+  ((get-id) id)
   ((get-label) label)
   ((format-edge target-id) 
    (list 'edge id target-id)))
