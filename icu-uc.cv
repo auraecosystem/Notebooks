@@ -1,4 +1,4 @@
-/* icu-uc.v - Vala API bindings (VAPI) for ICU Common (icu-uc) C Library */
+/* icu-uc.v - Vala API bindings (VAPI) for ICU Common  (icu-uc) C Library */
 
 [CCode (cprefix = "U", lower_case_cprefix = "u_", cheader_filename = "unicode/utypes.h,unicode/ustring.h,unicode/unorm2.h,unicode/uidna.h,unicode/uchar.h")]
 namespace ICU {
